@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="lg:container lg:mx-auto">
+      <header class="flex border-b-2 p-3 justify-between items-center">
+        <div class="flex items-center">
+          <a href="/" class="flex items-center pr-5">
+            <img class="w-12 h-12" alt="logo" src="./assets/images/logo.png" />
+            <span class="text-red-700 text-2xl font-semibold">Target</span>
+          </a>
+          <p class="opacity-35">Premium landing page template</p>
+        </div>
+        <div class="text-red-700 font-medium">
+          <span>Call Now!</span>
+          <span class="ml-2">1-800-123-456</span>
+        </div>
+      </header>
+      <main>
+        <section class="border-b-2 flex md:flex-col p-8 pb-12">
+          <div class="flex flex-col gap-4 flex-1">
+            <h2 class="font-medium text-4xl">
+              The perfect way to convert your traffic into sales
+            </h2>
+            <p class="opacity-50">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing edit, sed diam
+              nonummy nibh euismod fincidunt ut laoreet dolore magna aliquam
+              erat volutpat.
+            </p>
+            <p class="opacity-50">
+              Epsum factorial non deposit quid pro quo hic escorol. Olypian
+              quarrels et gorilla congolium sic ad nauseum.
+            </p>
+            <div class="flex items-center space-x-6 justify-center mt-4">
+              <button
+                type="button"
+                title="Purchase now"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-full shadow-md border-4"
+              >
+                Purchase now!
+              </button>
+              <span class="font-medium">or</span>
+              <button
+                type="button"
+                title="Take a tour"
+                class="bg-gray-300 hover:bg-gray-300 opacity-60 text-gray-700 font-bold py-2 px-6 rounded-full shadow-md border-4"
+              >
+                Take a tour
+              </button>
+            </div>
+          </div>
+          <div class="relative w-full max-w-4xl mx-auto overflow-hidden flex-1">
+            <div class="h-full flex justify-center items-center">
+              <img
+                src="./assets/images/image.jpg"
+                alt="Slider Image"
+                class="h-full object-cover bg-gray-200 p-2"
+              />
+            </div>
+            <button
+              type="button"
+              title="Previous"
+              class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100 text-gray-700 rounded-full shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="non0"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              title="Next"
+              class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100 text-gray-700 rounded-full shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="non0"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="border-b-2 columns-3 px-8 py-12 space-x-8">
+          <!-- Quick and easy -->
+          <div class="flex items-center text-center gap-6">
+            <div class="self-start">
+              <i class="fa-solid fa-desktop text-6xl text-gray-500"></i>
+            </div>
+            <div class="text-start">
+              <h3 class="font-semibold text-2xl mb-2">Quick and easy</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Less risky -->
+          <div class="flex items-center text-center gap-6">
+            <div class="self-start">
+              <i
+                class="fa-regular fa-window-maximize text-6xl text-gray-500"
+              ></i>
+            </div>
+            <div class="text-start">
+              <h3 class="font-semibold text-2xl mb-2">Less risky</h3>
+              <p class="text-gray-500">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                esse molestie consequat, vel illum dolore eu feugiat nulla
+                facilisis at vero eros et accumsan.
+              </p>
+            </div>
+          </div>
+
+          <!-- Optimized -->
+          <div class="flex items-center text-center gap-6">
+            <div class="self-start">
+              <i class="fa-solid fa-gauge text-6xl text-gray-500"></i>
+            </div>
+            <div class="text-start">
+              <h3 class="font-semibold text-2xl mb-2">Optimized</h3>
+              <p class="text-gray-500">
+                Epsum factorial non deposit quid pro quo hic escorol. Olypian
+                quarrels et gorilla congolium sic ad nauseum.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="border-b-2 px-8 py-12">
+          <h3 class="font-semibold text-2xl mb-4">Check out the features</h3>
+          <div class="flex space-x-12">
+            <div class="basis-7/12">
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Epsum factorial non deposit quid pro quo
+                hic escorol. Olypian quarrels et gorilla congolium sic ad
+                nauseum.
+              </p>
+              <p class="text-gray-500">
+                Epsum factorial non deposit quid pro quo hic escorol. Olypian
+                quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus
+                carbonundum e pluribus unum. Defacto lingo est igpay atinlay.
+                Marquee selectus non provisio incongruous feline nolo
+                contendere. Gratuitous octopus niacin, sodium glutimate.
+              </p>
+            </div>
+            <div class="basis-5/12">
+              <ul class="h-full text-orange-500">
+                <li class="flex gap-4 items-center py-2 border-b-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="#B0B0B0"
+                      fill="none"
+                    />
+                    <polyline points="10 8 14 12 10 16" stroke="#B0B0B0" />
+                  </svg>
+                  <p class="text-lg">Lorem ipsum dolor sit amet</p>
+                </li>
+                <li class="flex gap-4 items-center py-2 border-b-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="#B0B0B0"
+                      fill="none"
+                    />
+                    <polyline points="10 8 14 12 10 16" stroke="#B0B0B0" />
+                  </svg>
+                  <p class="text-lg">Consectetuer adipiscing elit sed diam</p>
+                </li>
+                <li class="flex gap-4 items-center py-2 border-b-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="#B0B0B0"
+                      fill="none"
+                    />
+                    <polyline points="10 8 14 12 10 16" stroke="#B0B0B0" />
+                  </svg>
+                  <p class="text-lg">Nibh euismod tincidunt ui</p>
+                </li>
+                <li class="flex gap-4 items-center py-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="#B0B0B0"
+                      fill="none"
+                    />
+                    <polyline points="10 8 14 12 10 16" stroke="#B0B0B0" />
+                  </svg>
+                  <p class="text-lg">Laoreet dolore magna aliquam erat</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="border-b-2 px-8 py-12">
+          <h2 class="font-semibold text-2xl mb-8">The screenshots</h2>
+          <div>
+            <div class="columns-4">
+              <div class="p-2 bg-gray-200">
+                <img src="./assets/images/image.jpg" alt="Screenshot" />
+              </div>
+              <div class="p-2 bg-gray-200">
+                <img src="./assets/images/image.jpg" alt="Screenshot" />
+              </div>
+              <div class="p-2 bg-gray-200">
+                <img src="./assets/images/image.jpg" alt="Screenshot" />
+              </div>
+              <div class="p-2 bg-gray-200">
+                <img src="./assets/images/image.jpg" alt="Screenshot" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="px-8 py-12">
+          <p class="mb-4 font-semibold text-lg">
+            See what our customers are saying
+          </p>
+          <div class="p-8 border-2 rounded-md relative quote-box">
+            <p class="text-gray-500 text-center italic">
+              "Li Europan lingures es members del sam familie. Lor separat
+              existentie es un myth. Por scientie, musica, sport etc, li tot
+              Europa usa li sam vovabularium."
+            </p>
+            <div
+              class="absolute left-6 -bottom-8 w-8 h-8 bg-white border-r border-gray transform"
+            ></div>
+            <div
+              class="absolute left-8 -bottom-6 w-10 h-11 border-b border-gray transform rotate-45"
+            ></div>
+            <div class="absolute -bottom-10 left-16">
+              <span class="text-gray-600">Mike Tyson, </span>
+              <span class="text-gray-400 italic">Microsoft</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 justify-center mt-20">
+            <button
+              type="button"
+              title="Purchase now"
+              class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-full shadow-md border-4"
+            >
+              Purchase now!
+            </button>
+            <span class="font-medium">or</span>
+            <button
+              type="button"
+              title="Take a tour"
+              class="bg-gray-300 hover:bg-gray-300 opacity-60 text-gray-700 font-bold py-2 px-6 rounded-full shadow-md border-4"
+            >
+              Take a tour
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="flex bg-neutral-800 text-gray-300 p-6">
+          <div class="flex-1 flex space-x-12">
+            <div class="basis-7/12">
+              <h2 class="font-semibold text-2xl mb-6 opacity-90">
+                Payment method
+              </h2>
+              <p class="opacity-80">
+                MA quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari quam li existent
+                Europan lingues.
+              </p>
+              <div class="flex gap-4 mt-8">
+                <img
+                  class="w-16 h-10"
+                  alt="master-card"
+                  src="./assets/images/master-card.png"
+                />
+                <img
+                  class="w-16 h-10"
+                  alt="visa-electron"
+                  src="./assets/images/visa-electron.png"
+                />
+                <img
+                  class="w-16 h-10"
+                  alt="paypal"
+                  src="./assets/images/paypal.jpg"
+                />
+              </div>
+            </div>
+            <div class="basis-5/12">
+              <h2 class="font-semibold text-2xl mb-6 opacity-90">
+                Get in touch
+              </h2>
+              <p class="opacity-80">
+                123 Main Street #3<br />
+                San Francisco, CA, 94101
+              </p>
+              <p><strong>Phone:</strong> (866) 123-4567 ext#1</p>
+              <p><strong>FAX:</strong> (866) 123-0000</p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:webdesign@shegy.pl">webdesign@shegy.pl</a>
+              </p>
+            </div>
+          </div>
+          <div class="flex-1 flex">
+            <div class="flex-1 mx-12">
+              <h2 class="font-semibold text-2xl mb-6 opacity-90">
+                Design details
+              </h2>
+              <p class="opacity-80">
+                Lorem ipsum dolor sit amet, consectetuer adipi-scing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore
+              </p>
+            </div>
+            <div class="flex-1 flex justify-center items-start">
+              <a href="/" class="flex items-center pr-5">
+                <img
+                  class="w-12 h-12"
+                  alt="logo"
+                  src="./assets/images/logo.png"
+                />
+                <span class="text-2xl font-semibold opacity-80 ml-4"
+                  >Target</span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="bg-stone-900 p-6 flex justify-between text-gray-500">
+          <p class="opacity-80">
+            Copyright @ 2011 Target. All rights reserved. Design by
+            <strong class="text-orange-400">Shegy</strong>
+          </p>
+          <div class="flex gap-4">
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fa-brands fa-atlassian"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fab fa-dribbble"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="#"
+              class="text-black rounded-full bg-gray-600 w-8 h-8 flex items-center justify-center"
+              ><i class="fas fa-rss"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
