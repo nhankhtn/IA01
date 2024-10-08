@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
-    <link rel="stylesheet" href="./styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -16,10 +15,16 @@
       <header class="flex border-b-2 p-3 justify-between items-center">
         <div class="flex items-center">
           <a href="/" class="flex items-center pr-5">
-            <img class="w-12 h-12" alt="logo" src="./assets/images/logo.png" />
-            <span class="text-red-700 text-2xl font-semibold">Target</span>
+            <img
+              class="w-8 h-8 md:w-12 md:h-12"
+              alt="logo"
+              src="./assets/images/logo.png"
+            />
+            <span class="text-red-700 text-lg md:text-2xl font-semibold"
+              >Target</span
+            >
           </a>
-          <p class="opacity-35">Premium landing page template</p>
+          <p class="opacity-35 ml-2 text-sm">Premium landing page template</p>
         </div>
         <div class="text-red-700 font-medium">
           <span>Call Now!</span>
@@ -27,7 +32,9 @@
         </div>
       </header>
       <main>
-        <section class="border-b-2 flex flex-col lg:flex-row p-8 pb-12">
+        <section
+          class="border-b-2 flex flex-col lg:flex-row p-8 pb-12 gap-12 md:gap-20"
+        >
           <div class="flex flex-col gap-4 flex-1">
             <h2 class="font-medium text-4xl">
               The perfect way to convert your traffic into sales
@@ -279,7 +286,7 @@
         </section>
         <section class="border-b-2 px-8 py-12">
           <h2 class="font-semibold text-2xl mb-8">The screenshots</h2>
-          <div class="columns-1 md:columns-2 lg:columns-4">
+          <div class="columns-1 md:columns-2 lg:columns-4 space-y-4">
             <div class="p-2 bg-gray-200">
               <img src="./assets/images/image.jpg" alt="Screenshot" />
             </div>
@@ -335,8 +342,10 @@
         </section>
       </main>
       <footer>
-        <div class="flex bg-neutral-800 text-gray-300 p-6">
-          <div class="flex-1 flex space-x-12">
+        <div
+          class="flex flex-col lg:flex-row bg-neutral-800 text-gray-300 p-6 gap-12"
+        >
+          <div class="flex-1 flex flex-col lg:flex-row gap-12">
             <div class="basis-7/12">
               <h2 class="font-semibold text-2xl mb-6 opacity-90">
                 Payment method
@@ -381,8 +390,8 @@
               </p>
             </div>
           </div>
-          <div class="flex-1 flex">
-            <div class="flex-1 mx-12">
+          <div class="flex-1 flex flex-col lg:flex-row gap-12">
+            <div class="flex-1">
               <h2 class="font-semibold text-2xl mb-6 opacity-90">
                 Design details
               </h2>
@@ -405,7 +414,9 @@
             </div>
           </div>
         </div>
-        <div class="bg-stone-900 p-6 flex justify-between text-gray-500">
+        <div
+          class="bg-stone-900 p-6 flex flex-col lg:flex-row gap-6 justify-between text-gray-500"
+        >
           <p class="opacity-80">
             Copyright @ 2011 Target. All rights reserved. Design by
             <strong class="text-orange-400">Shegy</strong>
